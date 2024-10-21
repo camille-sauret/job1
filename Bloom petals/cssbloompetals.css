@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    background-color:bisque;
+    
+}
+
+nav {
+    padding: 25px;
+    word-spacing: 25px;
+    
+}
+
+section {
+    padding: 25px;
+    margin-left: 650px;
+}
+    
+div {
+    padding: 25px;
+}
+    
+
+body {
+    text-align: center;
+    background-image: url(images/arriere-plan-floral-dessine-main_1191642-199.avif);
+    opacity: 0,5;
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.image1 {
+    display: flex;
+    justify-content:space-evenly;
+}
+.image2 {
+    display: flex;
+    justify-content:space-evenly;
+}
+h1 {
+    font-style: italic;
+    ;
+}
+
+.texte {
+    display: flex;
+}
+.barre {
+    display: flex;
+    justify-content:center;
+}
+
