@@ -45,3 +45,83 @@ section {
     padding: 25px;
     margin-left: 650px;
 }
+
+@media (max-width: 1024px) {
+  form {
+      flex-direction: column; /* Stack form elements vertically */
+      align-items: center;
+  }
+
+  select {
+      width: 180px; /* Adjust the width of the select dropdown */
+  }
+
+  section {
+      margin-left: 300px; /* Reduce the margin for smaller screens */
+      padding: 20px;
+  }
+
+  nav {
+      word-spacing: 15px; /* Reduce spacing between navigation items */
+  }
+
+  h1 {
+      font-size: 2rem; /* Adjust heading font size */
+  }
+}
+
+/* Media Query for devices with width less than 768px */
+@media (max-width: 768px) {
+  form {
+      width: 100%; /* Make the form take full width */
+      padding: 10px;
+  }
+
+  select {
+      width: 150px; /* Adjust the dropdown width further */
+  }
+
+  section {
+      margin-left: 0; /* Remove margin for small screens */
+      padding: 15px;
+  }
+
+  nav {
+      padding: 15px;
+      word-spacing: 10px; /* Further reduce spacing */
+  }
+
+  h1 {
+      font-size: 1.8rem; /* Reduce font size for smaller screens */
+  }
+}
+
+/* Media Query for devices with width less than 480px */
+@media (max-width: 480px) {
+  body {
+      font-size: 0.9rem; /* Adjust overall font size */
+  }
+
+  form {
+      flex-direction: column; /* Stack form fields vertically */
+      gap: 10px; /* Add spacing between form elements */
+  }
+
+  select {
+      width: 100%; /* Allow dropdown to take full width */
+  }
+
+  h1 {
+      font-size: 1.5rem; /* Reduce heading size for mobile devices */
+      color: darkred; /* Slightly adjust color */
+  }
+
+  section {
+      padding: 10px;
+  }
+
+  nav {
+      padding: 10px;
+      word-spacing: 5px; /* Minimize word spacing */
+  }
+}

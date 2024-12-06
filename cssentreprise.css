@@ -35,3 +35,71 @@ section {
     padding: 25px;
     margin-left: 650px;
 }
+
+@media (max-width: 1024px) {
+    .image1, .image2 {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 20px; 
+
+    section {
+        margin-left: 300px; 
+        padding: 20px;
+    }
+
+    nav {
+        word-spacing: 15px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .image1, .image2 {
+        flex-wrap: wrap; 
+        align-items: center;
+    }
+
+    section {
+        margin-left: 0; 
+        padding: 15px;
+    }
+
+    nav {
+        padding: 15px;
+        word-spacing: 10px;
+    }
+
+    .intro {
+        font-size: 1.2rem; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem; 
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+    }
+
+    nav {
+        padding: 10px;
+        word-spacing: 5px;
+    }
+
+    .image1, .image2 {
+        flex-wrap: wrap; 
+        align-items: center;
+        gap: 15px;
+
+    .intro {
+        font-size: 1rem;
+        color: hotpink; 
+    }
+}
